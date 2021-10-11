@@ -729,7 +729,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(/src/assets/images/banner-bg.png);
+  background-image: url(src/assets/images/banner-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -942,7 +942,7 @@ parallax & home seperator
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-image: url(/src/assets/images/work-process-bg.png);
+  background-image: url(src/assets/images/work-process-bg.png);
   z-index: 2;
   top: -20%;
   left: -20%;
@@ -1070,7 +1070,7 @@ parallax & home seperator
   width: 140%;
   height: 140%;
   opacity: .90;
-  background-image: url(/src/assets/images/fun-facts-bg.png);
+  background-image: url(src/assets/images/fun-facts-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1103,7 +1103,7 @@ parallax & home seperator
   height: 32px;
   top: 160px;
   left: 70%;
-  background: url(/src/assets/images/circle-dec.png) center center no-repeat;
+  background: url(src/assets/images/circle-dec.png) center center no-repeat;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -1121,7 +1121,7 @@ parallax & home seperator
   height: 32px;
   top: 140px;
   left: 70%;
-  background: url(/src/assets/images/circle-dec.png) center center no-repeat;
+  background: url(src/assets/images/circle-dec.png) center center no-repeat;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
