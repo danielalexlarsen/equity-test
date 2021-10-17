@@ -6,6 +6,9 @@ import { IndexComponent } from './index/index.component';
 import {RouterModule} from "@angular/router";
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { StakingGuideComponent } from './staking-guide/staking-guide.component';
+import { TombolaComponent } from './tombola/tombola.component';
+import { ReferralComponent } from './referral/referral.component';
+
 
 
 
@@ -14,12 +17,16 @@ import { StakingGuideComponent } from './staking-guide/staking-guide.component';
     AppComponent,
     IndexComponent,
     NavMenuComponent,
-    StakingGuideComponent
+    StakingGuideComponent,
+    TombolaComponent,
+    ReferralComponent,
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([{path: "", component: IndexComponent},
-      {path: 'staking', component: StakingGuideComponent}])
+      {path: 'staking', component: StakingGuideComponent},
+      {path: 'tombola', component: TombolaComponent},
+      {path: 'referral', component: ReferralComponent}])
   ],
   providers: [],
   bootstrap: [AppComponent]
