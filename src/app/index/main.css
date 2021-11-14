@@ -33,7 +33,7 @@ font & reset css
 reset
 ---------------------------------------------
 */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div,
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
 figure, header, nav, section, article, aside, footer, figcaption {
@@ -126,6 +126,7 @@ body {
   position: relative;
   padding-top: 100px;
   padding-bottom: 80px;
+  font-family: "Raleway", sans-serif;
 }
 
 .section.colored {
@@ -331,7 +332,6 @@ body {
 }
 
 a.main-button-slider {
-  font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
   background-color: #2d4da7;
@@ -342,6 +342,7 @@ a.main-button-slider {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  font-family: "Raleway", sans-serif;
 }
 
 a.main-button-slider:hover {
@@ -360,6 +361,7 @@ a.main-button {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  font-family: "Raleway", sans-serif;
 }
 
 a.main-button:hover {
@@ -381,6 +383,7 @@ button.main-button {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  font-family: "Raleway", sans-serif;
 }
 
 button.main-button:hover {
@@ -404,6 +407,7 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  font-family: "Raleway", sans-serif;
 }
 
 .header-area .main-nav {
@@ -748,21 +752,23 @@ welcome
 
 .welcome-area .header-text h1 {
   font-weight: 500;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 54px;
   letter-spacing: 1.4px;
   margin-bottom: 30px;
   color: #fff;
+  font-family: "Raleway", sans-serif;
 }
 
 .welcome-area .header-text p {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
   color: #fff;
   line-height: 28px;
   letter-spacing: 0.25px;
   margin-bottom: 40px;
   position: relative;
+  font-family: "Raleway", sans-serif;
 }
 
 @media (max-width: 991px) {
@@ -912,6 +918,7 @@ features
   padding-top: 30px;
   margin-top: -220px;
   z-index: 9;
+  font-family: "Raleway", sans-serif;
 }
 
 @media (max-width: 991px) {
@@ -933,6 +940,7 @@ parallax & home seperator
   position: relative;
   padding-top: 90px;
   padding-bottom: 90px;
+  font-family: "Raleway", sans-serif;
 }
 
 .mini:before {
@@ -940,11 +948,10 @@ parallax & home seperator
   position: absolute;
   width: 140%;
   height: 140%;
-  opacity: .95;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-image: url(src/assets/images/work-process-bg.png);
+  background-color: #082F74;
   z-index: 2;
   top: -20%;
   left: -20%;
@@ -953,6 +960,8 @@ parallax & home seperator
 .mini .mini-content {
   position: relative;
   z-index: 3;
+  font-family: "Raleway", sans-serif;
+
 }
 
 .mini .mini-content .info {
@@ -960,6 +969,7 @@ parallax & home seperator
   color: #fff;
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: "Raleway", sans-serif;
 
 }
 
@@ -996,6 +1006,7 @@ parallax & home seperator
   font-weight: 400;
   font-size: 15px;
   text-shadow: 3px 3px 4px #000000;
+  font-family: "Raleway", sans-serif;
 }
 
 .mini .mini-content .info p span {
@@ -1071,8 +1082,7 @@ parallax & home seperator
   position: absolute;
   width: 140%;
   height: 140%;
-  opacity: .90;
-  background-image: url(src/assets/images/fun-facts-bg.png);
+  background-color: #082F74;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1209,6 +1219,7 @@ team
   position: relative;
   margin-bottom: 30px;
   padding-bottom: 25px;
+
 }
 
 .team-item:hover .team-content .team-info {
@@ -1551,6 +1562,7 @@ footer
 footer {
   background-image: linear-gradient(127deg, #595bd1 0%, #363495 91%);
   padding-top: 30px;
+  filter: brightness(80%);
 }
 
 footer .social {

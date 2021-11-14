@@ -443,6 +443,7 @@ header
   transition: all 0.3s ease 0s;
   position: relative;
   z-index: 999;
+  font-family: "Raleway", sans-serif;
 }
 
 .header-area .main-nav .nav li {
